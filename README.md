@@ -60,7 +60,7 @@ npm npm install --save react-toastify
 https://v5.reactrouter.com/web/guides/quick-start
 ```
 ```sh
-npm i react-router-dom@5.2.0  
+npm i --save react-router-dom@5.2.0  
 ```
 * React History
 ```sh
