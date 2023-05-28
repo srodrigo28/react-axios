@@ -1,5 +1,9 @@
 # Como construi o projeto
     * npx create-react-app@latest nomeProjeto
+    * Ultimo visto
+```sh
+    https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/17396682#overview
+```
 ### New React App
     * https://pt-br.legacy.reactjs.org/docs/getting-started.html
 
