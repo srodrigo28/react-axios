@@ -69,3 +69,11 @@ https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/l
 ```sh
 npm i --save history@4.10.1
 ```
+
+* React Prop-types
+```sh
+https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/20742522#overview
+```
+```sh
+npm i --save prop-types
+```

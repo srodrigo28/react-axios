@@ -1,16 +1,16 @@
+import { Router } from 'react-router-dom'
+import history from './services/history'
 import { Header } from "./components/Header";
-import { Login } from "./pages/Login";
-import { Routes } from "./services/routes";
 import { Global } from "./styles/GlobalStyles";
+import { Routes } from "./services/routes";
 
 function App() {
   return (
-    <>
-      <Global />
-      <Routes />
+    <Router history={history}>
       <Header />
-      <Login />
-    </>
+      <Routes />
+      <Global />
+    </Router>
   );
 }
 

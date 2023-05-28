@@ -1,12 +1,19 @@
+import { Link } from "react-router-dom"
 import { Container } from "./style";
 import { FaHome, FaSignInAlt, FaUserAlt } from "react-icons/fa"
 
 export function Header(){
     return(
         <Container>
-            <span> <FaHome size={30} /> </span>
-            <span> <FaUserAlt size={30}/> </span>
-            <span> <FaSignInAlt size={30}/> </span>
+            <Link to="/login">
+                <FaHome size={30} />
+            </Link>
+            <Link to="/cadastro"> 
+                <FaUserAlt size={30}/>
+            </Link>
+            <Link to="/a">
+                <FaSignInAlt size={30}/>
+            </Link>
         </Container>
     )
 }
