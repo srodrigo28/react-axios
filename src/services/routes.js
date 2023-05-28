@@ -8,8 +8,8 @@ import { Page404 } from './../pages/Page404'
 export function Routes(){
     return(
         <Switch>
-            <MyRoute path="/login"         component={Login}  />
-            <MyRoute path="/cadastro" component={Cadastro}  />
+            <MyRoute path="/login"         component={Login} />
+            <MyRoute path="/cadastro" component={Cadastro} />
             <MyRoute path="*"              component={Page404} />
         </Switch>
     )

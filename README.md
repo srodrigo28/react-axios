@@ -57,7 +57,7 @@ npm install --save react-icons
 https://www.npmjs.com/package/react-toastify
 ```
 ```sh
-npm npm install --save react-toastify  
+npm install --save react-toastify  
 ```
 * React Router V5
 ```sh
