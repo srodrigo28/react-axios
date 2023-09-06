@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camisa",
+      "valor": 100
+    },
+    {
+      "id": 2,
+      "nome": "Calsa legue",
+      "valor": 140
+    },
+    {
+      "id": 3,
+      "nome": "Jaqueta",
+      "valor": 280
+    },
+    {
+      "nome": "",
+      "valor": "",
+      "id": 4
+    },
+    {
+      "nome": "cadeira 2",
+      "valor": "2000",
+      "id": 5
+    },
+    {
+      "nome": "",
+      "valor": "",
+      "id": 6
+    },
+    {
+      "nome": "cadeira 2",
+      "valor": "2000",
+      "id": 7
+    }
+  ]
+}
