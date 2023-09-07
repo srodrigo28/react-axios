@@ -1,4 +1,9 @@
-# git branch app2
-# git checkout app2
-# git push origin app2
-# git branch -a
+## Passo a passo Branch git
+### Listar todas branch
+```
+git branch -a
+```
+### Criar uma nova branch
+```
+git branch mobile
+```
