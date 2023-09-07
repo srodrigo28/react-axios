@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import './NewPost.css';
 import blogFetch from "../axios/config";
 
-
 const NewPost = () => {
     const navigate = useNavigate();
 
@@ -28,7 +27,7 @@ const NewPost = () => {
     return (
         <div className="new-post">
             <h2>Inserir novo Post:</h2>
-            <form onSubmit={ (e) => createPost(e) }>
+            <form onSubmit={ (e) => createPost(e) } className='form'>
                 <div className="form-control">
                     <label htmlFor="title">Título</label>
                     <input
