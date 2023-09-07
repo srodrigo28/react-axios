@@ -31,5 +31,10 @@ git commit -m ""
 
 * Subir no git
 ```
-git git push
+git push origin main
+```
+
+### Remover uma branch
+```
+git branch -d nomeDaBranch
 ```
