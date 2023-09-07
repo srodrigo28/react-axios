@@ -7,3 +7,22 @@ git branch -a
 ```
 git branch mobile
 ```
+
+### Salvar os dados na branch criada
+```
+git push origin rodrigo
+```
+
+### Trocar de branch
+```
+git checkout main
+```
+
+### Juntar as branch Merge
+```
+git commit -m ""
+```
+
+```
+git git push
+```
