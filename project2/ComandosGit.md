@@ -19,10 +19,12 @@ git checkout main
 ```
 
 ### Juntar as branch Merge
+* Colocar uma descricação
 ```
 git commit -m ""
 ```
 
+* Subir no git
 ```
 git git push
 ```
