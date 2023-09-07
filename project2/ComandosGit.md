@@ -20,6 +20,11 @@ git checkout main
 
 ### Juntar as branch Merge
 * Colocar uma descricação
+
+```
+git merge nomeBranch
+```
+
 ```
 git commit -m ""
 ```
