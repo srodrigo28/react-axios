@@ -35,6 +35,12 @@ git push origin main
 ```
 
 ### Remover uma branch
+* removendo branch local
 ```
 git branch -d nomeDaBranch
+```
+
+* removendo branch remote
+```
+git push origin --delete nomeDaBranch
 ```
