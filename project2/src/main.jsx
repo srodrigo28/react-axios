@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { Home } from './routes/Home.jsx'
-import { Cliente } from './routes/Cliente'
-import NewPost from './routes/NewPost.jsx'
-import { Produto } from './routes/Produto/index.jsx'
+import { Home } from './views/Home.jsx'
+import { Cliente } from './views/Cliente'
+import NewPost from './views/NewPost.jsx'
+import { Produto } from './views/Produto/index.jsx'
 
 
 const router = createBrowserRouter([
